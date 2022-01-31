@@ -1,0 +1,29 @@
+{
+  "workbench.tree.indent": 23, // its more than default indentation
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#ff0000", // red color. for file explorer levels.
+    "editorCursor.foreground": "#0084ff",
+    "terminalCursor.foreground": "#ff0000",
+  },
+  "editor.copyWithSyntaxHighlighting": false, // default should use copy text as raw (because it use more often). if you need syntax highlighted version, you can use command: "editor.action.clipboardCopyWithSyntaxHighlightingAction".
+  "editor.cursorWidth": 3,
+  "extensions.ignoreRecommendations": true,
+  "git.autorefresh": false,
+  "git.autofetch": false,
+  "update.mode": "none",
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "breadcrumbs.enabled": true,
+  "telemetry.telemetryLevel": "off",
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "update.showReleaseNotes": false,
+  "typescript.disableAutomaticTypeAcquisition": true, // VScode shows unused for this value, if the extension is disabled.
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
+  "npm.fetchOnlinePackageInfo": false, // vscode shows unused for this value, if the extension is disabled.
+  "editor.mouseWheelZoom": true,
+  "workbench.startupEditor": "none",
+  "search.useIgnoreFiles": false,
+  "files.autoSave": "off", // from extension
+}
